@@ -44,5 +44,5 @@ public class MyDrawing extends JPanel {
 		// Frame will not display until you set visible true
 		frame.setVisible(true);
 	}
-
+	// simple update to see with Students 2018 the effect of rebase
 }
