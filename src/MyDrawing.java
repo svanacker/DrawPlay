@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 
 public class MyDrawing extends JPanel {
 	private Cat cat;
+	private Clock clock;
 	private Photo photo;
 	private Sun sun;
 	private window w;
@@ -13,6 +14,7 @@ public class MyDrawing extends JPanel {
 	{
 		// Add critters to the drawing
 		cat = new Cat();
+		clock = new Clock();
 		photo = new Photo();
 		sun = new Sun();
 		w= new window();
@@ -21,6 +23,7 @@ public class MyDrawing extends JPanel {
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
 		cat.draw(g, 50, 50);
+		clock.draw(g,20,20);
 		photo.draw(g, 200, 50);
 		sun.draw(g, 150, 150);
 		w.draw(g, 200,100);
