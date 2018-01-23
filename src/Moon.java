@@ -8,7 +8,7 @@ public class Moon {
 
 	public void draw(Graphics g, int mouseX, int mouseY) {
 		Graphics2D g2 = (Graphics2D) g;
-		g2.setColor(Color.yellow);
+		g2.setColor(Color.white);
 		g2.fillOval(mouseX, mouseY, RAYON, RAYON);
 		int x = mouseX + RAYON;
 		int y = mouseY + RAYON / 2;
