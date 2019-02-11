@@ -24,6 +24,7 @@ public class Cat {
 	public void draw(Graphics g, int catX, int catY)
 	{
 		Graphics2D g2 = (Graphics2D) g;
+                String hello = "Hello";
 		int x=catX;
 		int y=catY;
 		// Draw the head
