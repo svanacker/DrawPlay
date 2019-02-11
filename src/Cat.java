@@ -48,3 +48,5 @@ public class Cat {
 		g2.drawString("Meow", catX, catY+HEAD_DIMENSION+10);	
 	}
 }
+
+//Modification Mehi-Zied
