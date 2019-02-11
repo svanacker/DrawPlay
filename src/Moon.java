@@ -14,6 +14,6 @@ public class Moon {
 		int y = mouseY + RAYON / 2;
 		// text appears below mouse body, +10 places below
 		// so it doesn't overlap the drawing
-		g2.drawString("Squeak", mouseX, mouseY + RAYON + 10);
+		g2.drawString("Squeak", mouseX, mouseY + RAYON + 11);
 	}
 }
