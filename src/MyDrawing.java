@@ -9,8 +9,8 @@ public class MyDrawing extends JPanel {
 	private Photo photo;
 	private Sun sun;
 	private window w;
-	private Moon moon
-	public MyDrawing() 
+	private Moon moon;
+	public MyDrawing()
 	{
 		// Add critters to the drawing
 		cat = new Cat();
@@ -22,13 +22,13 @@ public class MyDrawing extends JPanel {
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
-		cat.draw(g, 50, 50);
+		cat.draw(g, 5, 5);
 		photo.draw(g, 200, 50);
 		sun.draw(g, 150, 150);
 		w.draw(g, 200,100);
 		moon.draw(g, 150,150);
 	}
-	
+
 	/**
 	 * @param args
 	 */
@@ -40,9 +40,11 @@ public class MyDrawing extends JPanel {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		// Set the size (otherwise only title bar displays)
 		frame.setSize(400, 400);
-		
+
 		// Frame will not display until you set visible true
 		frame.setVisible(true);
 	}
+
+
 	// simple update to see with Students 2018 the effect of rebase
 }
